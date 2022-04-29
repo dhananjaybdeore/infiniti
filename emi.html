@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/emi.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+      integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a
+        class="navbar-brand font-playfair fo-38 fw-700 text-white"
+        href="index.html"
+        >LOGO</a
+      >
+      <div
+        class="menu-btn navbar-toggler-icon d-sm-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <div class="menu-btn__burger"></div>
+      </div>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav pl-md-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item dropdown-toggle" href="#">Insurance</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="service_insurance.html"
+                      >Insurance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="service_health_insurance.html"
+                      >Health Insurance</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_life_insurance.html"
+                      >Life Insurance</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item dropdown-toggle" href="#">Loan</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="service_loan.html">Loan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_home_loan.html"
+                      >Home Loan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_personal_loan.html"
+                      >Personal Loan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_loan_ob.html"
+                      >Loan OB/CC/BG</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_investment.html"
+                  >Investment</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_taxation.html"
+                  >Taxation/GST
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_real_estate.html"
+                  >Real Estate
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_strategic_advisory.html"
+                  >Strategic Advisory
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="values.html">Values</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="calculator">
+      <img src="img/Rectangle BESIDE DROE.svg" alt="" />
+      <span>Calculators</span>
+    </div>
+    <div class="calculator-names">
+      <a href="emi.html" class="selected">EMI Calculator</a>
+      <a href="investment.html">Return Calculator</a>
+      <a href="construction2.html">Construction Cost Calculator</a>
+    </div>
+    <div class="main-div">
+      <form action="">
+        <div class="sub-div">
+          <div class="amount-heading-div">
+            <div class="heading-image">
+              <img src="img/Group-1167.svg" alt="" />
+            </div>
+            <div class="heading-content">
+              <p>Loan Amount</p>
+              <p>(in Rupees)</p>
+            </div>
+          </div>
+          <div class="sub-div-input-div">
+            <div class="sub-div-left-div">
+              <div class="range-div">
+                <span>1L</span>
+                <span>100L</span>
+              </div>
+
+              <input
+                type="range"
+                min="100000"
+                max="10000000"
+                value="100000"
+                step="100000"
+                name="amount"
+                id="amount"
+                class="slider"
+                oninput="updateAmount()"
+              />
+            </div>
+            <label for="amount-input">
+              <fieldset>
+                <legend>Amount</legend>
+                <input
+                  type="text"
+                  value="100000"
+                  name="amount-input"
+                  id="amount-input"
+                  oninput="updateAmount2()"
+                />
+                <span class="unit-span">Rs</span>
+              </fieldset>
+            </label>
+          </div>
+        </div>
+        <div class="sub-div">
+          <div class="amount-heading-div">
+            <div class="heading-image">
+              <img src="img/Vector.svg" alt="" />
+            </div>
+            <div class="heading-content">
+              <p>Rate of Interest</p>
+              <p>(per Annum)</p>
+            </div>
+          </div>
+          <div class="sub-div-input-div">
+            <div class="sub-div-left-div">
+              <div class="range-div">
+                <span>6.25%</span>
+                <span>22%</span>
+              </div>
+
+              <input
+                type="range"
+                min="6.25"
+                max="22.00"
+                value="6.25"
+                step="0.25"
+                name="interest-rate"
+                class="slider"
+                id="interest-rate"
+                oninput="updateInterestRate()"
+              />
+            </div>
+            <label for="interest-rate-input">
+              <fieldset>
+                <legend>Interest Rate</legend>
+                <input
+                  type="text"
+                  value="6.25"
+                  name="interest-rate-input"
+                  id="interest-rate-input"
+                  oninput="updateInterestRate2()"
+                />
+                <span class="unit-span">%</span>
+              </fieldset>
+            </label>
+          </div>
+        </div>
+        <div class="sub-div">
+          <div class="amount-heading-div">
+            <div class="heading-image">
+              <img src="img/Group.svg" alt="" />
+            </div>
+            <div class="heading-content">
+              <p>Tenure</p>
+              <p>(in Years)</p>
+            </div>
+          </div>
+          <div class="sub-div-input-div">
+            <div class="sub-div-left-div">
+              <div class="range-div">
+                <span>1 Year</span>
+                <span>30 Years</span>
+              </div>
+
+              <input
+                type="range"
+                min="1"
+                max="30"
+                value="1"
+                step="1"
+                name="period"
+                id="period"
+                class="slider"
+                oninput="updatePeriod()"
+              />
+            </div>
+            <label for="period-input">
+              <fieldset>
+                <legend>Period</legend>
+                <input
+                  type="text"
+                  value="1"
+                  name="period-input"
+                  id="period-input"
+                  oninput="updatePeriod2()"
+                />
+                <span class="unit-span">Years</span>
+              </fieldset>
+            </label>
+          </div>
+          <div class="main-button" id="main-button">
+            <a href="#main-button">Calculate EMI</a>
+            <img src="img/Vector-submit.svg" alt="" />
+          </div>
+        </div>
+      </form>
+      <div class="output-div-outer-div">
+        <div class="output-div">
+          <div class="monthly-emi"></div>
+          <canvas id="myChart" width="400" height="400"></canvas>
+          <div class="total-interest-payable-div"></div>
+        </div>
+      </div>
+    </div>
+    <div class="table-div">
+      <table class="table" border="1">
+        <tr id="new-rows"></tr>
+      </table>
+    </div>
+    <footer class="pr-3 pl-3 pt-5 pr-md-5 pl-md-5 pb-4 mt-4">
+      <div class="row m-0 pb-4">
+        <div class="col-md-3 m-auto text-center">
+          <div class="font-playfair fo-38 fw-700 text-white">LOGO</div>
+          <div class="font-playfair fo-16 mt-2 fw-700 text-white">
+            Infiniti Capitals
+          </div>
+        </div>
+        <div class="col-md-3 pl-md-5 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Contact</div>
+          <hr />
+          <div class="mt-4 fo-15 text-white">
+            Sector-5, Near somville apartment, 545222, Mumbai, Maharashtra
+          </div>
+          <div class="mt-4 fo-15">
+            <a href="mailto:needhelp@gmail.com" class="text-white"
+              >needhelp@mail.com</a
+            >
+          </div>
+          <div class="fo-15 text-white mt-3">
+            <a href="tel:+9199876450321" class="text-white">+91-99876450321</a>
+          </div>
+        </div>
+        <div class="col-md-2 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Quick Links</div>
+          <hr />
+          <ul class="pl-0 mt-4">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service_health_insurance.html">Our Services</a></li>
+            <li><a href="careers.html">Career</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 pl-md-5 pr-md-5 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Social Media</div>
+          <hr />
+          <div class="d-flex newsletter mt-5 p-1">
+            <a href=""><img src="./img/facebook.png" alt="" /></a>
+            <a href=""><img src="./img/instagram.png" alt="" class="ml-5" /></a>
+            <a href=""><img src="./img/youtube.png" alt="" class="ml-5" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center fo-14 fw-600 text-white mt-4">
+        2022 Company Name Limited | All Rights Reserved.
+      </div>
+    </footer>
+    <script src="js/emi.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

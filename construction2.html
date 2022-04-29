@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/construction2.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" />
+  </head> -->
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a
+        class="navbar-brand font-playfair fo-38 fw-700 text-white"
+        href="index.html"
+        >LOGO</a
+      >
+      <div
+        class="menu-btn navbar-toggler-icon d-sm-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <div class="menu-btn__burger"></div>
+      </div>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav pl-md-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item dropdown-toggle" href="#">Insurance</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="service_insurance.html"
+                      >Insurance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="service_health_insurance.html"
+                      >Health Insurance</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_life_insurance.html"
+                      >Life Insurance</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item dropdown-toggle" href="#">Loan</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="service_loan.html">Loan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_home_loan.html"
+                      >Home Loan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_personal_loan.html"
+                      >Personal Loan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="service_loan_ob.html"
+                      >Loan OB/CC/BG</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_investment.html"
+                  >Investment</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_taxation.html"
+                  >Taxation/GST
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_real_estate.html"
+                  >Real Estate
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="service_strategic_advisory.html"
+                  >Strategic Advisory
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="values.html">Values</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="calculator">
+        <img src="img/Rectangle BESIDE DROE.svg" alt="" />
+        <span>Calculators</span>
+      </div>
+      <div class="calculator-names">
+        <a href="emi.html">EMI Calculator</a>
+        <a href="investment.html">Return Calculator</a>
+        <a href="construction.html" class="selected">Construction Cost Calculator</a>
+      </div>
+      <div class="main-div">
+        <form>
+        <div class="sub-div-1">
+          <div class="sec-div-1">
+            <div class="sub-div-heading">Plot size in sq yards:</div>
+            <div class="sub-div-selector">
+              <select name="plot-sizes" id="plot-sizes">
+                <option value="100">100</option>
+                <option value="120">120</option>
+                <option value="160">160</option>
+                <option value="200">200</option>
+                <option value="250">250</option>
+                <option value="300">300</option>
+                <option value="350">350</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+              </select>
+            </div>
+          </div>
+          <div class="sec-div-2">
+            <div class="sub-div-heading">I want to build</div>
+            <div class="sub-div-selector">
+              <select name="floors" id="floors">
+                <option value="1">1 Floor</option>
+                <option value="2">2 Floor</option>
+                <option value="3">3 Floor</option>
+                <option value="4">4 Floor</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="sub-div-2">
+          <div class="sec-div-3">
+            <div class="sub-div-heading">City</div>
+            <select name="city" id="city">
+              <option value="Delhi">Delhi</option>
+              <option value="Gurgaon">Gurgaon</option>
+              <option value="Faridabad">Faridabad</option>
+              <option value="Noida">Noida</option>
+            </select>
+          </div>
+          <div class="sec-div-4">
+            <div class="sub-div-heading">Contruction Type</div>
+            <div class="sub-div-selector">
+              <select name="construction-type" id="construction-type">
+                <option value="2500">Basic</option>
+                <option value="3000">Standard</option>
+                <option value="3750">Premium</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="sub-div-3">
+          <div class="sec-div-5">
+            <div class="sub-div-heading">Max Ground Coverage</div>
+            <div class="max-ground-coverage">90</div>
+          </div>
+          <div class="sec-div-6">
+          <div class="sub-div-heading">Stilt</div>
+            <span class="stilt-span">
+          <span><input type="radio" name="stilt" id="stilt-yes" checked>Yes</span><span><input type="radio" name="stilt" id="stilt-no" value="no"> No </span></span></span>
+        </div>
+      </div>
+          <div class="main-button">
+              <!-- <a href="#output-div">Calculate Cost</a> -->
+              <!-- <img src="img/Vector-submit.svg" alt=""> -->
+              <button type="submit" class='submit-button'>Submit</button>
+          </div>
+          <div class="output-div" id="output-div">
+              <div class="output-div-upper">
+                  Construction Cost
+              </div>
+              <div class="output-sub-div">
+                  <div><span class="output-sub-div-heading">Plot size in sq yards:</span> <span class="output-plot-size">100</span> </div>
+                  <div><span class="output-sub-div-heading">I want to build:</span> <span class="output-floors">1 Floor</span> </div>   
+              </div>
+              <div class="output-sub-div">
+                  <div><span class="output-sub-div-heading">City:</span> <span class="output-city">Delhi</span> </div>
+                  <div><span class="output-sub-div-heading">Construction type: </span> <span class="output-construction-type">Basic</span> </div>   
+              </div>
+              <div class="output-sub-div">
+                  <div><span class="output-sub-div-heading">Max ground coverage:</span> <span class="output-max-ground-coverage">90</span> </div>
+                  <div><span class="output-sub-div-heading">Stilt:</span> <span class="output-stilt">Yes</span> </div>   
+              </div>
+              <div class="construction-cost">
+                Rs 22,50,000
+              </div>
+          </div>
+          <div class="terms">
+            *This is approx. cost. It may warry little bit as per current material cost.
+          </div>
+          <div class="main-button">
+            <a href="#">Let's get started</a>
+            <img src="img/Vector-submit.svg" alt="">
+        </div>
+        </form>
+      </div>
+  <footer class="pr-3 pl-3 pt-5 pr-md-5 pl-md-5 pb-4 mt-4">
+    <div class="row m-0 pb-4">
+       <div class="col-md-3 m-auto text-center">
+          <div class="font-playfair fo-38 fw-700 text-white">LOGO</div>
+          <div class="font-playfair fo-16 mt-2 fw-700 text-white">Infiniti Capitals</div>
+       </div>
+       <div class="col-md-3 pl-md-5 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Contact</div>
+          <hr>
+          <div class="mt-4 fo-15 text-white">Sector-5, Near somville apartment, 545222, Mumbai, Maharashtra</div>
+          <div class="mt-4 fo-15">
+             <a href="mailto:needhelp@gmail.com" class="text-white">needhelp@mail.com</a>
+          </div>
+          <div class="fo-15 text-white mt-3">
+             <a href="tel:+9199876450321" class="text-white">+91-99876450321</a>
+          </div>
+       </div>
+       <div class="col-md-2 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Quick Links</div>
+          <hr>
+          <ul class="pl-0 mt-4">
+             <li><a href="about.html">About Us</a></li>
+             <li><a href="service_health_insurance.html">Our Services</a></li>
+             <li><a href="careers.html">Career</a></li>
+          </ul>
+       </div>
+       <div class="col-md-4 pl-md-5 pr-md-5 mt-5 mt-md-0">
+          <div class="fo-18 fw-700 text-white">Social Media</div>
+          <hr>
+          <div class="d-flex newsletter mt-5 p-1">
+             <a href=""><img src="./img/facebook.png" alt=""></a>
+             <a href=""><img src="./img/instagram.png" alt="" class="ml-5"></a>
+             <a href=""><img src="./img/youtube.png" alt="" class="ml-5"></a>
+          </div>
+       </div>
+    </div>
+    <div class="text-center fo-14 fw-600 text-white mt-4">2022 Company Name Limited | All Rights Reserved.</div>
+ </footer>
+    <script src="js/construction2.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

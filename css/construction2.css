@@ -1,0 +1,318 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin-top: 10rem !important;
+}
+input:focus {
+  outline: none;
+}
+a.nav-link {
+  font-size: 1.8rem;
+}
+html {
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0rem;
+  margin-left: 10rem;
+
+  font-size: 4rem;
+  color: rgba(11, 48, 83, 1);
+}
+.calculator img {
+  height: 5rem;
+  margin-right: 2rem;
+}
+.calculator-names {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.calculator-names a {
+  text-decoration: none;
+  color: gray;
+  background-color: rgb(228, 225, 225);
+  font-size: 3rem;
+  padding: 1rem 5rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+.calculator-names a.selected {
+  background-color: rgba(16, 55, 92, 1);
+  color: white;
+}
+@media only screen and (max-width: 550px) {
+  .calculator {
+    margin-left: 2rem;
+  }
+  .calculator-names {
+    font-size: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* margin-left: 2rem; */
+  }
+  .calculator-names a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+  }
+}
+.main-div {
+  /* width: 100%; */
+  margin: 2rem 2rem;
+  border: 5px dotted gray;
+  background: rgba(211, 210, 210, 0.5);
+  padding: 3vw;
+}
+.sub-div-1,
+.sub-div-2,
+.sub-div-3 {
+  margin: 7rem 0;
+  display: flex;
+  /* width: 100%; */
+  /* justify-content: space-between; */
+}
+@media only screen and (max-width: 500px) {
+  .sub-div-1,
+  .sub-div-2,
+  .sub-div-3 {
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.sub-div-heading {
+  font-size: 2.8rem;
+  color: gray;
+  font-weight: 600;
+}
+.sec-div-1,
+.sec-div-2,
+.sec-div-3,
+.sec-div-4,
+.sec-div-5,
+.sec-div-6 {
+  width: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .sec-div-1,
+  .sec-div-2,
+  .sec-div-3,
+  .sec-div-4,
+  .sec-div-5,
+  .sec-div-6 {
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .sub-div-1,
+  .sub-div-2,
+  .sub-div-3 {
+    margin: 0rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+select {
+  width: 80%;
+  height: 8rem;
+  border: 3px solid rgb(192, 190, 190);
+  border-radius: 20rem;
+  font-size: 2rem !important;
+  padding-left: 6rem;
+  -webkit-appearance: none;
+  background-image: url("/img/Line\ 523.svg") !important;
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 3rem;
+  background-position-x: 95%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  select {
+    width: 70%;
+    height: 5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  select {
+    width: 74vw;
+  }
+}
+.max-ground-coverage {
+  width: 80%;
+  height: 8rem;
+  border: 3px solid rgb(192, 190, 190);
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+
+  border-radius: 20rem;
+  font-size: 2rem;
+  padding-left: 6rem;
+  -webkit-appearance: none;
+  /* background-image: url(images/chevron-down.svg); */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 3rem;
+  background-position-x: 95%;
+}
+
+.sec-div-6 .sub-div-heading {
+  padding-bottom: 4rem;
+}
+.stilt-span span {
+  margin-right: 5rem;
+}
+.sec-div-6 > span {
+  font-size: 2.5rem;
+  color: gray;
+  /* padding: 0 2rem; */
+  /* margin-top: 2rem; */
+}
+@media only screen and (max-width: 500px) {
+  .max-ground-coverage {
+    width: 74vw;
+    height: 5rem;
+  }
+  .sec-div-6 .sub-div-heading {
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+.main-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-button a {
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 162, 199, 1);
+  font-size: 2rem;
+  border-radius: 3.5rem;
+  padding: 1rem 6rem 1rem 3rem;
+}
+.main-button img {
+  height: 5rem;
+  margin-left: -4rem;
+}
+.output-div {
+  margin-top: 3rem;
+  font-size: 2rem;
+  border: 1px solid gray;
+  /* padding: 1rem; */
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+.output-div-upper {
+  font-size: 3.8rem;
+  text-align: center;
+  background: rgba(16, 55, 92, 1);
+  padding: 2rem 0;
+}
+.output-sub-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 3rem;
+  padding: 0 3rem;
+}
+.output-sub-div div {
+  width: 40%;
+  color: gray;
+  font-size: 3.4rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 950px) {
+  .output-sub-div div {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .output-sub-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0rem;
+    padding: 0 3rem;
+  }
+  .output-sub-div div {
+    width: 80%;
+    margin-left: 5vw;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .output-sub-div div {
+    font-size: 2rem;
+  }
+  .output-sub-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* margin-top: 3rem; */
+    padding: 0 1rem;
+  }
+}
+.construction-cost {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: rgba(11, 48, 83, 1);
+  text-align: center;
+}
+.output-plot-size,
+.output-floors,
+.output-city,
+.output-construction-type,
+.output-max-ground-coverage,
+.output-stilt {
+  color: rgba(0, 0, 0, 1);
+}
+.terms {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1050px) {
+  .terms {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .terms {
+    font-size: 1.6rem;
+  }
+}

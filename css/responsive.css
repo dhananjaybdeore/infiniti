@@ -1,0 +1,595 @@
+@media only screen and (min-width: 577px) {
+	.d-text-right {
+		text-align: right;
+	}
+
+	.nav-link {
+		color: #fff;
+		padding: 10px 30px !important;
+	}
+
+	header {
+		padding: 170px 60px 15px 60px;
+	}
+
+	.services_cards_row1 {
+		margin: 0px 145px 0px 0px;
+	}
+
+	.services_cards_row2 {
+		margin: 0px 0px 0px 145px;
+	}
+
+	.home_about_section {
+		padding: 30px 150px;
+	}
+
+	.documents_section {
+		position: absolute;
+		top: 10%;
+		bottom: 10%;
+		left: -10%;
+		right: 0;
+		background: #FFFFFF;
+		box-shadow: 5px 4px 18px rgb(0 0 0 / 25%);
+		padding: 20px;
+	}
+
+	.documents_section ul {
+		list-style: disc;
+		margin: 0 !important;
+	}
+
+	.documents_section ul li {
+		font-size: 17px;
+		padding: 7px 0px 7px 5px;
+	}
+
+	.service_advisory_container .row {
+		margin-left: 150px !important;
+		margin-right: 0 !important;
+	}
+
+	.service_advisory_container .row.flex-sm-row-reverse {
+		margin-right: 150px !important;
+		margin-left: 0 !important;
+	}
+
+	.service_advisory_section {
+		width: 130%;
+		height: 800px;
+		border-radius: 50%;
+		background: linear-gradient(180deg, #00A2C7 0%, #10375C 100%);
+		transform: rotate(-17.31deg);
+		margin: 300px -170px;
+	}
+
+	.service_advisory_div {
+		position: absolute;
+		left: 0;
+		top: -40%;
+		right: 0;
+	}
+
+	.phone_section iframe {
+		width: 700px;
+		height: 345px;
+	}
+
+	.careers_container:nth-child(odd) .career_abs_img {
+		position: absolute;
+		right: 1%;
+		bottom: 1%;
+		width: 355px;
+	}
+
+	.careers_container:nth-child(even) .career_abs_img {
+		position: absolute;
+		left: 1%;
+		bottom: 1%;
+		width: 355px;
+	}
+
+	.contact_section {
+		width: 600px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.service_advisory_container .row {
+		margin-left: 350px !important;
+		margin-right: 0 !important;
+	}
+
+	.service_advisory_container .row.flex-sm-row-reverse {
+		margin-right: 350px !important;
+		margin-left: 0 !important;
+	}
+
+	.service_advisory_section {
+		width: 130%;
+		height: 1100px;
+		border-radius: 50%;
+		background: linear-gradient(180deg, #00A2C7 0%, #10375C 100%);
+		transform: rotate(-17.31deg);
+		margin: 300px -170px;
+	}
+
+	.service_advisory_div {
+		position: absolute;
+		left: 0;
+		top: -25%;
+		right: 0;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+
+	.modal-content {
+		width: 310px;
+	}
+
+	/* Global classes for momobile */
+	.mfo-35 {
+		font-size: 35px !important;
+	}
+
+	.mfo-32 {
+		font-size: 32px !important;
+	}
+
+	.mfo-30 {
+		font-size: 30px !important;
+	}
+
+	.mfo-28 {
+		font-size: 28px !important;
+	}
+
+	.mfo-25 {
+		font-size: 25px !important;
+	}
+
+	.mfo-24 {
+		font-size: 24px !important;
+	}
+
+	.mfo-22 {
+		font-size: 22px !important;
+	}
+
+	.mfo-20 {
+		font-size: 20px !important;
+	}
+
+	.mfo-18 {
+		font-size: 18px !important;
+	}
+
+	.mfo-17 {
+		font-size: 17px !important;
+	}
+
+	.mfo-16 {
+		font-size: 16px !important;
+	}
+
+	.mfo-15 {
+		font-size: 15px !important;
+	}
+
+	.mfo-14 {
+		font-size: 14px !important;
+	}
+
+	.mfo-13 {
+		font-size: 13px !important;
+	}
+
+	.mfo-6 {
+		font-size: 6px !important;
+	}
+
+	.mfo-11 {
+		font-size: 11px !important;
+	}
+
+	.mfo-10 {
+		font-size: 10px !important;
+	}
+
+	.mow-100 {
+		width: 100% !important;
+	}
+
+	.mow-90 {
+		width: 90% !important;
+	}
+
+	.mow-70 {
+		width: 70% !important;
+	}
+
+	.mow-30 {
+		width: 26% !important;
+	}
+
+	.m-text-center {
+		text-align: center;
+	}
+
+	.m-text-right {
+		text-align: right;
+	}
+
+	.mt-250 {
+		margin-top: 1600px;
+	}
+
+	/* Custom classes */
+	.nav-link {
+		color: #fff;
+		padding: 10px 0px !important;
+	}
+
+	header {
+		padding: 190px 20px 30px 20px;
+	}
+
+	.header_bar1 {
+		right: 34%;
+	}
+
+	.header_bar2 {
+		right: 28%;
+	}
+
+	.header_bar3 {
+		right: 22%;
+	}
+
+	.header_bar4 {
+		right: 16%;
+	}
+
+	.home_services_section .header_bar {
+		top: -16px;
+		height: 120px;
+	}
+
+	.services_cards_row1 .col-md-4,
+	.services_cards_row2 .col-md-4 {
+		padding: 0;
+		margin-top: 16px;
+	}
+
+	.work_section,
+	.service_insurance_banner {
+		padding: 20px;
+		overflow-x: hidden;
+	}
+
+	.service_insurance_banner .work_section_bar {
+		top: -80px;
+	}
+
+	.work_section_bar1 {
+		right: -40%;
+	}
+
+	.work_section_bar2 {
+		right: -36%;
+	}
+
+	.work_section_bar3 {
+		right: -32%;
+	}
+
+	.work_section_bar4 {
+		right: -28%;
+	}
+
+	.work_section_bar5 {
+		right: -24%;
+	}
+
+	.work_section_bar6 {
+		right: -20%;
+	}
+
+	.work_section_bar7 {
+		right: -16%;
+	}
+
+	.work_section_bar8 {
+		right: -12%;
+	}
+
+	.work_section_bar9 {
+		right: -8%;
+	}
+
+	.work_section_bar10 {
+		right: -4%;
+	}
+
+	.work_section_bar11 {
+		right: 0%;
+	}
+
+	.work_section_bar12 {
+		right: 4%;
+	}
+
+	.phone_section {
+		background-size: 340px auto;
+	}
+
+	.phone_section .position-relative .w-100 {
+		margin-top: -25px;
+	}
+
+	.abs_img {
+		top: -25px;
+	}
+
+	.home_about_section {
+		padding: 20px;
+	}
+
+	.about_button {
+		width: 90%;
+	}
+
+	.about_button .row {
+		height: 50px;
+	}
+
+	.documents_container {
+		box-shadow: 5px 4px 18px rgb(0 0 0 / 25%);
+	}
+
+	.about_button_div {
+		width: 80px;
+		height: 80px;
+		margin-top: -15px;
+		margin-left: 0px;
+	}
+
+	.documents_section ul li {
+		font-size: 17px;
+		padding: 7px 0px 7px 5px;
+	}
+
+	#service_insurance_carousel .owl-nav {
+		top: 120%;
+	}
+
+	#customer_feedback_carousel .owl-nav {
+		top: 105%;
+	}
+
+	#service_insurance_carousel .owl-nav .owl-next,
+	#customer_feedback_carousel .owl-nav .owl-next {
+		right: 37%;
+	}
+
+	#service_insurance_carousel .owl-nav .owl-prev,
+	#customer_feedback_carousel .owl-nav .owl-prev {
+		left: 37%;
+	}
+
+	.service_advisory_container .col-md-8 {
+		background: linear-gradient(268deg, #10375C -70.92%, #00A2C7 137.44%);
+	}
+
+	.service_loan_arrows_div {
+		width: 170px;
+		height: 50px;
+		font-size: 14px;
+		margin-bottom: 35px;
+	}
+
+	.service_loan_arrows_div:after {
+		border-left: 25px solid white;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+	}
+
+	.service_loan_arrows_div:before {
+		right: -25px;
+		border-left: 25px solid #00A2C7;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+	}
+
+	.service_loan_container_div {
+		right: 0;
+	}
+
+	.service_loan_container_div_text2 {
+		left: 10%;
+	}
+
+	.service_home_loan_container {
+		min-height: 100vh;
+		margin-bottom: 650px;
+	}
+
+	.service_personal_loan_section .card {
+		height: 245px;
+	}
+
+	.phone_section iframe {
+		width: 280px;
+		height: 170px;
+	}
+
+	.careers_container .col-md-3 {
+		background: #0B3053;
+	}
+
+	.contact_form {
+		margin-top: 150px !important;
+	}
+
+	.contact_section {
+		width: 100%;
+		margin-top: 500px;
+	}
+
+	.contact_section .col-4 {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:1160px) {
+	.service_investing5 {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.cardHeading {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.loanRequirementsCard {
+		max-width: 320px;
+		width: 300px;
+	}
+
+	.bluePolygon {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:992px) {
+	.documentsTable td {
+		font-size: 18px !important;
+	}
+
+	.documentsTable th {
+		font-size: 20px !important;
+	}
+
+	.documentsTable2 td {
+		font-size: 10px !important;
+	}
+
+	.documentsTable2 th {
+		font-size: 10px !important;
+	}
+}
+
+@media screen and (max-width:525px) {
+	.documentsTable img {
+		width: 40px;
+	}
+
+	.documentsTable td {
+		font-size: 16px !important;
+	}
+
+	.documentsTable2 img {
+		width: 8px;
+	}
+
+	.documentsTable2 td {
+		font-size: 8px !important;
+	}
+
+	.documentsTable th {
+		font-size: 16px !important;
+	}
+}
+
+@media screen and (max-width:390px) {
+	.documentsTable img {
+		width: 30px;
+	}
+
+	.documentsTable td {
+		font-size: 12px !important;
+	}
+
+	.documentsTable th {
+		font-size: 12px !important;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.providers {
+		margin-top: 320%;
+	}
+
+	.footerMt {
+		margin-top: 260%;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.footerMt {
+		margin-top: 290%;
+	}
+}
+
+@media screen and (max-width:345px) {
+	.providers {
+		margin-top: 360%;
+	}
+
+
+}
+
+@media screen and (max-width:1330px) {
+	.ic {
+		font-size: small !important;
+	}
+
+
+	.documents_section table {
+		margin-top: -12px;
+	}
+
+	.documentsTable2 td {
+		font-size: 7px !important;
+	}
+
+	.documentsTable2 th {
+		font-size: 10px !important;
+	}
+
+	.documentsTable2 img {
+		width: 10px;
+	}
+
+	.BlueCardContent {
+		font-size: 12px;
+	}
+
+	.BlueCardContent1 {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.documentsTable2 td {
+		font-size: 12px !important;
+	}
+
+	.documentsTable2 th {
+		font-size: 14px !important;
+	}
+
+	.documentsTable2 img {
+		width: 16px;
+	}
+
+	.serviceInvestementHomeAboutSection {
+		margin-top: -600px !important;
+	}
+}
